@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'ls -l main'
+                sh 'make'
             }
         }
         stage('Test') {
